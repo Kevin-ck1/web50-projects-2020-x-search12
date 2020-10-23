@@ -1,0 +1,251 @@
+body {
+   font-family: Arial, sans-serif;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+}
+
+.topbar {
+  clear: both;
+  height: 65px; 
+  width: 100%;
+}
+
+.toplinks {
+   float: right;
+   height: 65px;
+   display: inline;
+   margin-right: 20px;
+}
+
+.toplinks2 {
+    display: table-cell;
+    height: 65px;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+.toplinks1 {
+    margin-left: 10px;
+}
+
+.logo_is {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.logo_image, .logo_background {
+    width: 272px; 
+    height: 92px
+ }
+
+.logo_background {
+    background-size: 272px 92px;
+    background-image: url("googlelogo.png");
+    background-repeat: no-repeat;
+    font-size: small;
+    color: #222;
+}
+
+.logo_subtext {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    position: relative;
+    top: 76px;
+}
+.search_form {
+    width: 100%;
+}
+.input_field_is {
+    margin: 0 auto;
+    clear: both;
+    height: 44px;
+    padding-left: 50px;
+    font-size: 16px;
+    background-position: 12px 14px;
+}
+
+.input_text, .input_field_is {
+    padding-left: 50px;
+    font-size: 16px;
+    border: 1px solid #D3D3D3;
+    border-radius: 50px;
+    margin-top: 30px;
+    transition-duration: 0.7ms;
+    background-image: url("searchIcon.webp");
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+
+.input_text {
+    height: 40px;
+    width: 100%; 
+    background-position: 12px 12px;
+}
+
+.input_text_is {
+    float: left;
+    width: 85%;
+    height: 40px;
+    border: none;
+    color: rgba(0,0,0,.87);
+    font-size: 16px;
+}
+.button_float {
+    float: right;
+    height: 44px;
+    display: flex;
+    justify-items: center;
+}
+
+.camera_icon {
+    margin: 10px 5px 8px;
+    height: 24px;
+    width: 24px;
+    background-image: url("camera_icon.png");
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: 0;
+    cursor: pointer;
+}
+
+.search_icon1 {
+    height: 44px;
+    width: 44px;
+    background: transparent;
+    border: none;
+}
+
+.search_icon2 {
+    background: none;
+    color: #4285f4;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.search_icon3 {
+    fill: currentColor;
+}
+
+.button_type {
+   background-color: #f2f2f2;
+   border-radius: 4px;
+   padding: 0px 16px;
+   margin: 20px 5px;
+   color: #5F6368;
+   transition-duration: 0.7ms;
+   cursor: pointer;
+   font-size: 14px;
+   line-height: 27px;
+   height: 36px;
+   min-width: 54px;
+   text-align: center;
+   border: 1px solid #f2f2f2;
+}
+
+.button_type:hover {
+   background-color: #f8f8f8;
+   color: #222;
+   border: 1px solid #c6c6c6;
+}
+
+.button_type:focus {
+   border: 1px solid #4d90fe;
+}
+
+.input_text:hover, .input_field_is:hover {
+   box-shadow:0 0 10px 2px #D3D3D3;
+   border: 1px solid white; 
+}
+
+a:link {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+a:focus {
+    opacity: .85;
+    text-decoration: underline;
+}
+a:visited {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+@media(min-width:600px){
+    .center_content {
+        clear: both;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 55vh;
+        width: 100%;
+    }
+
+    .input_field {
+        text-align: center
+    }
+
+    .input_text {
+        width: 500px;
+    }
+    .input_field_is {
+        width: 535px;
+    }
+}
+
+@media (max-width:599px) {
+    .logo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .input_field {
+        text-align: center;
+    }
+
+    .input_text, .input_field_is, .input_text_is  {
+        width: 75%;
+    }
+
+}
+
+
+@media (max-width:400px) {
+    .topbar {
+        height: 45px;  
+    } 
+
+    .toplinks { 
+        height: 45px;   
+    }
+      
+    .toplinks1 {
+        height: 45px;
+    }
+
+    .logo {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .logo_image {
+        width: 213px;
+        height: 72px;
+    }
+
+    .input_field {
+        text-align: center;
+    }
+
+    .input_text {
+        width: 75%;
+    }
+
+}

@@ -1,0 +1,245 @@
+body {
+    font-family: arial,sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+}
+.logobar {
+    clear: both;
+    background-color: #f1f1f1;
+    height: 65px;
+    width: 100%;
+    margin: 0;
+}
+.logoicon {
+    float: left;
+}
+.logoicon1 {
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+.logoicon2 {
+    background-position: 0 -35px;
+    height: 33px;
+    width: 92px;
+    display: block;    
+    background-image: url("advancedLogo.png");
+    background-size: 528px 68px; 
+    background-repeat: no-repeat;
+}
+
+.toplinks {
+    float: right;
+    margin-right: 10px;
+}
+.toplinks1 {
+    display: table-cell;
+    height: 60px;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+a:link {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+a:focus {
+    opacity: .85;
+    text-decoration: underline;
+}
+a:visited {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 25px 35px;
+}
+.separator1 {
+    clear: both;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 35px;
+}
+.separator2 {
+    clear: both;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+.find {
+    clear: both;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+
+}
+.findpages{
+    float: left;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    height: 42px;
+    font-weight: 500;
+
+}
+.findpages1 {
+    color: #333;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.whitespace{
+    float: left;
+    min-width: 167px;
+    min-height: 41px;
+    width: 50%;
+}
+.find3 {
+    float: left;
+    width: 33%;
+    padding-left: 5px;
+}
+.find4 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    
+}
+
+.form1 {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 20px 4% 0 45px;
+}
+.field {
+    clear: both;
+}
+
+
+.input_label {
+    float: left;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.input_label1 {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.input_text {
+    float: left;
+    min-width: 167px;
+    min-height: 41px;
+    width: 50%;
+}
+
+
+.textinput {
+    width: 95%;
+    text-align: left;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    text-align: left;
+   
+}
+
+.input_info {
+    float: left;
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    padding-left: 5px;
+    position: relative;
+}
+
+.input_info1 {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 11px;
+}
+
+.input_des {
+    color: #555;
+}
+.input_des1 {
+    color: #666;
+    font-family: monospace;
+}
+
+.input_des2 {
+    color: #666;
+    font-family: monospace;
+}
+
+.submit_advanced {
+    clear: both;
+}
+
+.whitespace2 {
+    float: left;
+    min-width: 167px;
+    height: 42px;
+    width: 16%; 
+}
+
+.submit_advanced1 {
+    float: left;
+    min-width: 167px;
+    min-height: 41px;
+    width: 50%;
+}
+.button_submit {
+    float: right;
+    margin-right: 10px;
+    height: 30px;
+    min-width: 120px;
+    background-color: #4d90fe;
+    color: #fff;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.button_submit:hover {
+    background-color: #4787ed;
+}
+
+.textinput:focus {
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+@media (max-width:1000px){
+    .input_info, .find3 {
+        display: none;
+    }
+    
+}
